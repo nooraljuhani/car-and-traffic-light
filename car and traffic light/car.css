@@ -1,0 +1,117 @@
+.d1{
+	width: 900px;
+	height: 200px;
+	background: linear-gradient( to top   right ,black,gray);
+	
+	margin-left: 50px;
+
+}
+
+.p1{
+	padding-top: 20px;
+	
+}
+.p2{
+	animation:car1 5s infinite;
+    position: relative;
+    animation-timing-function: ease-out;
+	}
+
+@keyframes car1 {
+ 0%   {top: 0px; left: 0px;}
+  100% {top:0px; left: 880px;}}
+
+.p3{
+	animation:car2 7s infinite;
+    position: relative;
+    animation-timing-function: ease-out;
+	}
+
+@keyframes car2 {
+ 0%   {top:0px; left:0px;}
+  100% {top:0px; left: 880px;}}
+
+
+  .p4{
+	animation:car3 9s infinite;
+    position: relative;
+    animation-timing-function: ease-out;
+	}
+
+@keyframes car3 {
+ 0%   {top:0px; left:0px;}
+  100% {top:0px; left: 880px;}}
+
+
+  .d2{
+
+  	width: 50px;
+  	height: 120px;
+  	background-color: black;
+  	margin-left: 495px;
+  	margin-top: 40px;
+  	}
+
+
+  .d3{
+
+  	border: solid;
+  	border-color: #fff;
+  	width: 1000px;
+  	margin-left: 90px;
+  }
+
+   .d4{
+
+  	width: 20px;
+  	height: 60px;
+  	background-color: black;
+  	margin-left: 510px;
+  }
+
+  .p5{
+  	border-radius: 100px;
+  	background-color: #000;
+  	border: solid ;
+  	width: 20px;
+  	height: 20px;
+  	margin-left: 10px;
+  	animation:red 3s infinite;
+    position: relative;
+    animation-timing-function: ease-out;
+  }
+  @keyframes red {
+ from {background-color: #000;}
+  to {background-color: red;}}
+
+  .p6{
+  	border-radius: 100px;
+  	background-color: #000;
+  	border: solid ;
+  	width: 20px;
+  	height: 20px;
+  	margin-left: 10px;
+  	animation:yellow 5s infinite;
+    position: relative;
+    animation-timing-function: ease-out;
+  }
+  @keyframes yellow {
+ from {background-color: #000;}
+  to {background-color: yellow;}}
+
+
+
+  .p7{
+  	border-radius: 100px;
+  	background-color: #000;
+  	border: solid ;
+  	width: 20px;
+  	height: 20px;
+  	margin-left: 10px;
+  	animation:green 7s infinite;
+    position: relative;
+    animation-timing-function: ease-out;
+  }
+  @keyframes green {
+ from {background-color: #000;}
+  to {background-color: green;}}
